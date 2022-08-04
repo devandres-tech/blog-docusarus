@@ -2,13 +2,14 @@
 slug: static-generation-vs-server-side-rendering
 title: Static Generation vs Server Side Rendering
 authors: andres
-tags: [Static Generation, NextJS, Server Side Rendering]
+tags: [Static Generation, Next.js, Server Side Rendering]
 ---
 
 ![image info](./ssg-vs-ssr.png)
-Next.js currently supports two forms of pre-rendering your content with **Static Generation** or **Server-side Rendering**. Both are techniques that improve SEO and render HTML for your app i n advance. Even though both accomplish the same thing they have some major differences when it comes to how they accomplish it. Each technique has its use case for the type of application you create. Before we take a look, lets see how Next.js **pre-renders** every page by default, regardless of **Static Generation** or **Server-side Generation**.
 
 <!-- truncate  -->
+
+Next.js currently supports two forms of pre-rendering your content with **Static Generation** or **Server-side Rendering**. Both are techniques that improve SEO and render HTML for your app i n advance. Even though both accomplish the same thing they have some major differences when it comes to how they accomplish it. Each technique has its use case for the type of application you create. Before we take a look, lets see how Next.js **pre-renders** every page by default, regardless of **Static Generation** or **Server-side Generation**.
 
 ## Pre-rendering in Next.js
 
