@@ -4,10 +4,10 @@
  * work well for content-centric websites.
  */
 
-/* @font-face {
+@font-face {
   font-family: 'JetBrains Mono';
   src: url('/fonts/webfonts/JetBrainsMono-Regular.woff2');
-} */
+}
 
 /* You can override the default Infima variables here. */
 :root {
@@ -18,9 +18,10 @@
   --ifm-color-primary-light: #048227;
   --ifm-color-primary-lighter: #058828;
   --ifm-color-primary-lightest: #05992e;
-
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* custom  */
+  --dark-surface-color: rgb(44, 44, 44);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -102,6 +103,7 @@
 .hero {
   display: flex;
   justify-content: center;
+  font-family: 'JetBrains Mono';
 }
 
 [data-theme='light'] .hero {
@@ -112,4 +114,36 @@
 [data-theme='dark'] .hero {
   background-color: #1c1c1d;
   color: rgb(249, 249, 249);
+}
+
+.hero__title {
+  font-family: 'JetBrains Mono';
+}
+
+.navbar {
+  font-family: 'JetBrains Mono';
+}
+
+.table-of-contents .table-of-contents__link--active {
+  border-left: 4px solid var(--ifm-link-color);
+  color: var(--ifm-font-color-base);
+  font-weight: 500;
+  margin-left: -16px;
+  padding-left: 12px;
+}
+
+.footer,
+.footer__title {
+  padding: 5rem 0;
+  font-family: 'JetBrains Mono';
+  --ifm-footer-background-color: var(--dark-surface-color);
+}
+
+.footer__links {
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+.footer__bottom {
+  color: rgb(162, 161, 161);
 }

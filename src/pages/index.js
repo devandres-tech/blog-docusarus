@@ -9,7 +9,7 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div style={{ maxWidth: '30rem' }}>
+      <div style={{ maxWidth: '34rem' }}>
         <p className='hero__subtitle'>Hello! my name is</p>
         <h1 className='hero__title'>
           <span style={{ color: 'rgb(4, 186, 52)' }}>{`{ `}</span>

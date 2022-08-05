@@ -3,6 +3,7 @@ title: 'Suspense in React'
 authors: andres
 slug: react-suspense
 tags: [react suspense]
+# image: https://i.imgur.com/mErPwqL.png
 ---
 
 Suspense is currently an experimental feature as per React docs that tells React to declaratively wait for asynchronous tasks. Essentially, components "wait" before they can render.
