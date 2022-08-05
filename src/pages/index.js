@@ -13,9 +13,9 @@ function HomepageHeader() {
       <div style={{ maxWidth: '34rem' }}>
         <p className='hero__subtitle'>Hello! my name is</p>
         <h1 className='hero__title'>
-          <span style={{ color: 'rgb(4, 186, 52)' }}>{`{ `}</span>
+          <span style={{ color: '#9438ed' }}>{`{ `}</span>
           {siteConfig.title}
-          <span style={{ color: '#9438ed' }}>{` }`}</span>
+          <span style={{ color: 'rgb(4, 186, 52)' }}>{` }`}</span>
         </h1>
         <p className='hero__subtitle'>{siteConfig.tagline}</p>
         <SocialLinks />

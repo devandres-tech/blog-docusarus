@@ -147,3 +147,8 @@
 .footer__bottom {
   color: rgb(162, 161, 161);
 }
+
+.navbar .navbar__inner {
+  margin: 0 auto;
+  max-width: 1360px;
+}
