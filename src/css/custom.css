@@ -4,6 +4,11 @@
  * work well for content-centric websites.
  */
 
+/* @font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/webfonts/JetBrainsMono-Regular.woff2');
+} */
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #058929;

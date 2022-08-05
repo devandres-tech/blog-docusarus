@@ -14,7 +14,7 @@ function HomepageHeader() {
         <h1 className='hero__title'>
           <span style={{ color: 'rgb(4, 186, 52)' }}>{`{ `}</span>
           {siteConfig.title}
-          <span style={{ color: '#850dff' }}>{` }`}</span>
+          <span style={{ color: '#9438ed' }}>{` }`}</span>
         </h1>
         <p className='hero__subtitle'>{siteConfig.tagline}</p>
       </div>
