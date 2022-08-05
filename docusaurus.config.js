@@ -13,12 +13,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/logo.svg',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -44,8 +39,6 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,6 +50,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: 'Dev Andres',
         logo: {
@@ -65,15 +63,30 @@ const config = {
         },
         items: [
           { to: '/blog', label: 'Blog', position: 'left' },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'left',
+          //   label: 'Dev Notes',
+          // },
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Dev Notes',
+            href: 'https://twitter.com/devandres_tech',
+            className: 'header-twitter-link',
+            position: 'right',
           },
           {
             href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            className: 'header-github-link',
+            position: 'right',
+          },
+          {
+            href: '#',
+            className: 'header-linkedin-link',
+            position: 'right',
+          },
+          {
+            href: '#',
+            className: 'header-email-link',
             position: 'right',
           },
         ],
@@ -121,7 +134,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Dev Andres, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

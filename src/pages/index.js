@@ -9,9 +9,13 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className='hero__subtitle'>
-        <p className='hero__subtitle'>Hello, name is</p>
-        <h1 className='hero__title'>{siteConfig.title}</h1>
+      <div style={{ maxWidth: '30rem' }}>
+        <p className='hero__subtitle'>Hello! my name is</p>
+        <h1 className='hero__title'>
+          <span style={{ color: 'rgb(4, 186, 52)' }}>{`{ `}</span>
+          {siteConfig.title}
+          <span style={{ color: '#850dff' }}>{` }`}</span>
+        </h1>
         <p className='hero__subtitle'>{siteConfig.tagline}</p>
       </div>
     </header>
@@ -19,11 +23,10 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext()
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description='Description will go into a meta tag in <head />'
+      title={`Software Developer`}
+      description='Andres Alcocer | Blog | React Frontend Developer'
     >
       <HomepageHeader />
     </Layout>
