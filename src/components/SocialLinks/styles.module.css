@@ -1,0 +1,36 @@
+.socialLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1.2rem 0;
+  padding-left: 0.3rem;
+}
+
+.socialLinks div {
+  margin-right: 1rem;
+}
+
+.socialLinks a {
+  font-size: 1.4rem;
+  width: 100%;
+}
+
+.socialLinks a:hover {
+  color: rgb(170, 170, 170);
+}
+
+.socialLinks a:focus,
+.socialLinksocialLinksList a:active {
+  color: var(--ifm-color-danger);
+}
+
+@media screen and (max-width: 966px) {
+  .socialLinks {
+    justify-content: space-between;
+    padding: 0 1.6rem;
+  }
+
+  .socialLinks div {
+    margin-right: 0;
+  }
+}

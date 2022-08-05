@@ -3,6 +3,7 @@ import clsx from 'clsx'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 
+import SocialLinks from '../components/SocialLinks'
 import styles from './index.module.css'
 
 function HomepageHeader() {
@@ -17,6 +18,7 @@ function HomepageHeader() {
           <span style={{ color: '#9438ed' }}>{` }`}</span>
         </h1>
         <p className='hero__subtitle'>{siteConfig.tagline}</p>
+        <SocialLinks />
       </div>
     </header>
   )
