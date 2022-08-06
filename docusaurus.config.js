@@ -75,12 +75,12 @@ const config = {
             position: 'right',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/devandres-tech',
             className: 'header-github-link',
             position: 'right',
           },
           {
-            href: '#',
+            href: 'https://www.linkedin.com/in/andres-io/',
             className: 'header-linkedin-link',
             position: 'right',
           },

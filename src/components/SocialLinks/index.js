@@ -14,17 +14,17 @@ const socialLinks = [
   {
     faIcon: faLinkedinIn,
     alt: 'Linkedin',
-    url: 'https://www.linkedin.com/in/evanitsg/',
+    url: 'https://www.linkedin.com/in/andres-io/',
   },
   {
     faIcon: faGithub,
     alt: 'GitHub',
-    url: 'https://github.com/digipie',
+    url: 'https://github.com/devandres-tech',
   },
   {
     faIcon: faTwitter,
     alt: 'Padlet',
-    url: 'https://padlet.com/about/us/wish/1072760846',
+    url: 'https://twitter.com/devandres_tech',
   },
   {
     faIcon: faEnvelope,
