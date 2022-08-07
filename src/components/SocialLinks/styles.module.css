@@ -1,3 +1,7 @@
+.socialLinksContainer {
+  /* background-color: red; */
+  height: 4rem;
+}
 .socialLinks {
   display: flex;
   flex-direction: row;
@@ -21,7 +25,7 @@
 
 .socialLinks a:focus,
 .socialLinksocialLinksList a:active {
-  color: var(--ifm-color-danger);
+  /* color: var(--ifm-color-danger); */
 }
 
 @media screen and (max-width: 966px) {
