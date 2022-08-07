@@ -22,4 +22,10 @@
     left: 2px;
     top: 10px;
   }
+
+  .alert {
+    position: relative;
+    top: 2.5rem;
+    margin-left: -2rem;
+  }
 }
