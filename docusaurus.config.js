@@ -98,6 +98,13 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      metadata: [
+        {
+          name: 'keywords',
+          content:
+            'Andres Alcocer Blog, React, JavaScript, Andres Software Developer, TypeScript, NodeJS, CSS, SASS, Frontend Developer, Docusarus',
+        },
+      ],
     }),
 }
 

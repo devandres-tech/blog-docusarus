@@ -3,6 +3,7 @@ slug: get-form-data-on-email
 title: 'Get Form Data on Email | Next.js + SmtpJS'
 authors: andres
 tags: [Next.js, SmtpJS, Email Data]
+keywords: [Next.js, SmtpJS, Email Data, React, Javascript]
 ---
 
 ![contact logic](./contact-f.png)

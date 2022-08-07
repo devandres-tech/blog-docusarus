@@ -2,7 +2,8 @@
 title: "What's new in React Router v6"
 authors: andres
 slug: react-router-v6
-tags: [React router, v6, React]
+tags: [React router, v6, React, Router, DOM]
+keywords: [React router, v6, React, Router, DOM]
 ---
 
 <!-- ![image info](/images/react-router-v6.jpg) -->

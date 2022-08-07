@@ -3,6 +3,7 @@ slug: react-state-management
 title: 'State Management in React'
 authors: andres
 tags: [react state, UI state, Cache state, Redux]
+keywords: [react state, UI state, Cache state, Redux]
 ---
 
 One of hardest problems in a modern web application is being able to effectively manage state. State can be any piece of data, and data is information that changes over time. Most of our applications are interactive and change often, they are never static. For this reason there are probably hundreds of state management libraries today, with the most popular that comes to mind, [React Redux](https://react-redux.js.org/).

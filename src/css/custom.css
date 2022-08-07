@@ -158,7 +158,3 @@
     display: none;
   }
 }
-
-.menu:nth-child(2) {
-  background-color: red;
-}

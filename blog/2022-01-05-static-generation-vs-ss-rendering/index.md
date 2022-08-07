@@ -3,6 +3,7 @@ slug: static-generation-vs-server-side-rendering
 title: Static Generation vs Server Side Rendering
 authors: andres
 tags: [Static Generation, Next.js, Server Side Rendering]
+keywords: [Static Generation, Next.js, Server Side Rendering]
 ---
 
 ![image info](./ssg-vs-ssr.png)
