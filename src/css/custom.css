@@ -159,7 +159,7 @@
   }
 
   .navbar__item {
-    display: block;
+    /* display: block; */
   }
 
   .navbar__items--right {
@@ -179,16 +179,24 @@
   .header-twitter-link:hover,
   .header-linkedin-link:hover,
   .header-email-link:hover {
-    display: none;
+    display: none !important;
   }
 
   .navbar__items--right > :nth-child(4) {
     display: none;
   }
+
+  .navbar__items > :nth-child(3) {
+    display: block !important;
+  }
 }
 
 @media (max-width: 996px) {
   .colorModeToggle_node_modules-\@docusaurus-theme-classic-lib-theme-Navbar-Content-styles-module {
+    display: block !important;
+  }
+
+  .colorModeToggle_DEke {
     display: block !important;
   }
 }
