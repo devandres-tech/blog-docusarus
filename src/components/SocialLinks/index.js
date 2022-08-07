@@ -48,7 +48,7 @@ function SocialLink({ faIcon, alt, url, setEmailCopied }) {
         }}
       >
         <div>
-          <a href={url}>
+          <a href='javascript:void(0)'>
             <FontAwesomeIcon alt={alt} title={alt} icon={faIcon} size='2x' />
           </a>
         </div>

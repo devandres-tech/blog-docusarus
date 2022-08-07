@@ -1,13 +1,18 @@
 .alert {
-  position: relative;
+  position: absolute;
   top: 4rem;
-  right: 2.5rem;
+  margin-left: -14rem;
+}
+
+.emailSvg:hover {
+  opacity: 0.6;
 }
 
 .emailSvg {
   font-size: 1.7rem !important;
   position: relative;
   top: 3px;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 996px) {
