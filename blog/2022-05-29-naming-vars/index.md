@@ -3,7 +3,7 @@ slug: naming-variables
 title: 'On the Nomenclature of Variables'
 authors: andres
 tags: [Naming Variables]
-tags: [Naming Variables, Javascript]
+keywords: [Naming Variables, Javascript]
 ---
 
 Being able to effectively give a descriptive name to a variable is probably one of the hardest decisions you will make as a programmer (besides choosing tabs vs spaces). You just can't name variables as you would with your offsprings (because it sounds good or it holds a special meaning in your life). Unlike your offsprings and its name, which represent different entities, a variable and its name are essentially the same thing.
