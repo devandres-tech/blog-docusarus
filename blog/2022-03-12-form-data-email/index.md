@@ -27,7 +27,7 @@ Install the [XMLHttpRequest](https://github.com/driverdan/node-XMLHttpRequest) p
 
 `npm i xmlhttprequest`
 
-Download the code from [SmtpJS.com](SmtpJS.com) copy and paste to the `contact.js` file. Your code should look like this (contact.js):
+Download the code from [SmtpJS.com](https://smtpjs.com/) copy and paste to the `contact.js` file. Your code should look like this (contact.js):
 
 ```javascript title="contact.js"
 'use strict'
