@@ -13,10 +13,13 @@
   position: relative;
   top: 3px;
   cursor: pointer;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 @media only screen and (max-width: 996px) {
   .emailSvg {
-    left: 10px;
+    left: 2px;
+    top: 10px;
   }
 }
