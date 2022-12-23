@@ -1,12 +1,10 @@
 ---
-title: "What's new in React Router v6"
+title: 'What new in React Router v6'
 authors: andres
-slug: react-router-v6
+slug: router-v6
 tags: [React router, v6, React, Router, DOM]
 keywords: [React router, v6, React, Router, DOM]
 ---
-
-<!-- ![image info](/images/react-router-v6.jpg) -->
 
 React router version 6 is here with lots of improvements! React router now matches the URL against your route config to enable a dynamic layout mechanism. Your UI layouts will reflect segments of the URL allowing you to build a full user interface that maps to your URL.
 

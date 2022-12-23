@@ -30,13 +30,13 @@ const socialLinks = [
   {
     faIcon: faEnvelope,
     alt: 'email',
-    url: '#',
+    url: '**',
   },
 ]
 
 function SocialLink({ faIcon, alt, url, setEmailCopied }) {
   let icon
-  if (faIcon === faEnvelope) {
+  if (faIcon.iconName === faEnvelope.iconName) {
     icon = (
       <CopyToClipboard
         text='devandres.tech@gmail.com'

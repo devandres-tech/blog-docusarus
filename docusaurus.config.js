@@ -35,6 +35,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
@@ -65,12 +67,6 @@ const config = {
         },
         items: [
           { to: '/blog', label: 'Blog', position: 'left' },
-          // {
-          //   type: 'doc',
-          //   docId: 'intro',
-          //   position: 'left',
-          //   label: 'Dev Notes',
-          // },
           {
             href: 'https://twitter.com/devandres_tech',
             className: 'header-twitter-link',
