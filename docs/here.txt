@@ -1,0 +1,9 @@
+Post
+- how to set up storybook + typescript + react + Svg's 
+
+Outline:
+- Intro
+- Steps
+- Error/issue
+- Conclusion
+
