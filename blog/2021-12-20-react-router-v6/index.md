@@ -10,7 +10,7 @@ React router version 6 is here with lots of improvements! React router now match
 
 <!-- truncate  -->
 
-# Route Configuration
+## Route Configuration
 
 Here's a a what a typical route configuration will look like compared to previous versions:
 
@@ -63,7 +63,7 @@ Now we are required to wrap our routes in a `<BrowserRouter />` component. We al
 
 In this case, `/players/new` is a more specific match than `/players/:playerId` so it will render the `<NewPlayerForm />` component. Notice that the route `/players/new` sits below the route `players/:playerId` so ordering is not taken into account.
 
-# Nested Routes
+## Nested Routes
 
 Nested routes are probably one of the most important features of react router v6. Nested routes
 allow for dynamic layouts, so no need to worry about creating complex layout code.
@@ -157,7 +157,7 @@ function Players() {
 }
 ```
 
-# Pathless routes
+## Pathless routes
 
 In our route config there are 3 types of routes that are pathless:
 
@@ -167,30 +167,30 @@ In our route config there are 3 types of routes that are pathless:
 <Route element={<PageLayout />}>
 ```
 
-- ### Index Routes
+### Index Routes
 
-  The first route is an Index route. They are responsible for rendering content when no child routes are matched.
-  You can think of it as the default case for the parent route. At the path `/players` the `<Outlet />` component will be replaced with the `<PlayerStats />` component. Index routes can be at any level of the route hierarchy.
+The first route is an Index route. They are responsible for rendering content when no child routes are matched.
+You can think of it as the default case for the parent route. At the path `/players` the `<Outlet />` component will be replaced with the `<PlayerStats />` component. Index routes can be at any level of the route hierarchy.
 
-- ### Not Found Routes (catch all)
+### Not Found Routes (catch all)
 
-  The second route will match any URL. When no other URL routes match any of your routes in your config the "not found" route will render. It has the weakest precedence.
+The second route will match any URL. When no other URL routes match any of your routes in your config the "not found" route will render. It has the weakest precedence.
 
-- ### Layout routes
+### Layout routes
 
-  The third route is considered a layout route since it doesn't participate in any of the matching only its children do. It's purpose is to wrap multiple child routes in the same layout. It makes your layouts more manageable, no need to import it on every other component (avoid repetition). At the route `/contact-us` this is what the element tree will look like:
+The third route is considered a layout route since it doesn't participate in any of the matching only its children do. It's purpose is to wrap multiple child routes in the same layout. It makes your layouts more manageable, no need to import it on every other component (avoid repetition). At the route `/contact-us` this is what the element tree will look like:
 
-  ```jsx
-  <App>
-    <PageLayout>
-      <Contact />
-    </PageLayout>
-  </App>
-  ```
+```jsx
+<App>
+  <PageLayout>
+    <Contact />
+  </PageLayout>
+</App>
+```
 
-  The `<NotFound />` component will also have the same layout.
+The `<NotFound />` component will also have the same layout.
 
-# Relative Links
+## Relative Links
 
 In v6, relative `<Link to />` links are relative to the parent that rendered them. They automatically inherit their parents' URL. This is useful when you want to change the parent's URL or rearrange your components.
 
@@ -210,7 +210,7 @@ function NewPlayerForm() {
 }
 ```
 
-# Reading URL Params
+## Reading URL Params
 
 To read route params you use the `:param` syntax and `useParam()` hook:
 
@@ -232,7 +232,7 @@ function Player() {
 
 ```
 
-# Search Params
+## Search Params
 
 You can manipulate and read search params with the `useSearchParams` hook. It has the similar behavior as the `useState` hook but stores and sets search params in the URL search params instead of in memory.
 
@@ -260,7 +260,7 @@ function TopScorers() {
 
 The `onChange` function is setting the search param "name": `/players/top-scorers?name="<USER_INPUT>"`.
 
-# Navigate Function
+## Navigate Function
 
 You can programmatically navigate to a URL with the `useNavigate` hook, useful for logging users out or after a form submission:
 
@@ -282,6 +282,6 @@ function NewPlayerForm() {
 }
 ```
 
-# Diving Deeper
+## Diving Deeper
 
 These are the basic features of React Router v6. If you would like to dive deeper and look up some examples such as Authentication, Custom Active Links, Lazy Loading, Modal and much more check out the [offical docs](https://reactrouter.com/docs/en/v6).

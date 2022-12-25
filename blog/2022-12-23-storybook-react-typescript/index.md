@@ -6,11 +6,13 @@ tags: [React, Storybook, React, Typescript]
 keywords: [React, Typescript, Storybook]
 ---
 
+<!-- truncate  -->
+
 Storybook is by far one of the best tools to build components in an isolated manner without the need of external dependencies. Together combined with Typescript and React Testing Library we can leverage a powerful development workflow. Let's go through the steps to setup it up.
 
-# Install React & Typescript
+## Install React & Typescript
 
 The easiest way to install typescript and react is to run: `npx create-react-app <MY_APP> --template typescript`. This will scaffold a React project with necessary dependencies to support Typescript:
 ![contact logic](./react-ts.png)
 
-# Install Storybook
+## Install Storybook
