@@ -256,7 +256,7 @@ module.exports = {
 To automate building our project for development purposes, let's create a NPM script in your `package.json` file:
 
 ```json
-"build:webpack": "webpack"
+  "build:webpack": "webpack serve --mode development --config webpack.config.js --open"
 ```
 
 now your package.json scripts section should look like the following:
