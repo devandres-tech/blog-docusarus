@@ -6,7 +6,7 @@ tags: [React, Storybook, React, Typescript, Webpack]
 keywords: [React, Typescript, Storybook, Webpack]
 ---
 
-Storybook is by far one of the best tools to build components in an isolated manner without the need of external dependencies. Together combined with Typescript and Webpack we can leverage a powerful development workflow. You can find the source code [here](https://github.com/devandres-tech/react-webpack-ts-storybook-setup) - Let's go through the steps to setup it up.
+Storybook is by far one of the best tools to build components in an isolated manner without the need of external dependencies. Together combined with Typescript and Webpack we can leverage a powerful development workflow. You can find the source code [here](https://github.com/devandres-tech/react-webpack-ts-storybook-setup) - Let's go through the steps to set it up.
 
 <!-- truncate  -->
 
